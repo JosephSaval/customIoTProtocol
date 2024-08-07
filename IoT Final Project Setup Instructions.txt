@@ -1,3 +1,30 @@
 IoT Final Project Setup Instructions
 
-Access layer - the node & gateway must be run in seperate tabs, each tab must have the corresponding code, either gateway.py or node.py copied into the main function. Then you need to add accessCom.py to both tabs. AccessCom holds suppoort functions used by the two files.
+Requirements:
+This project requires matlab to be installed on your computer, & at least 2 micro:bits. Matlab version R2023b 
+was used for the project, but there shouldn't be any version specific requirements.
+
+Physical Setup:
+1. Connect one micro:bit to your computer via usb to act as the micro:bit gateway.
+2. Connect 1 to 3 more micro:bits to any computer in the vacinity to provide power to the micro:bits.
+
+Matlab Setup:
+Simply run gateway.m in matlab on the computer with the gateway micro:bit connected.
+
+Micro:bit Gateway Setup:
+1. On the computer with the gateway micro:bit connected, go to https://python.microbit.org/v/3 using the chrome
+browser. Other browsers are not supported by the website.
+2. If you are not prompted to connect the micro:bit, select the 3 dots on the bottom left & hit connect. Select
+your microbit.
+3. Copy the code from gateway.py into the browser editor. 
+4. On the bottom left select 'project' & 'create file' name the file 'accesscom' & select create. Copy the code from 'accessCom.py' to the new file.
+5.Select main.py & 'Send to micro:bit' to flash the device.
+
+Micro:bit Node Setup:
+1. On each computer with a node micro:bit connected go to https://python.microbit.org/v/3 using the chrome browser.
+If the controller micro:bit is connected on the same computer, be sure to open a new tab.
+2. If you are not prompted to connect the micro:bit, select the 3 dots on the bottom left & hit connect. Select
+your microbit.
+3. Copy the code from 'gateway.py' to the browser.
+4. On the bottom left select 'project' & 'create file' name the file 'accesscom' & select create. Copy the code from 'accessCom.py' to the new file.
+5.Select main.py & 'Send to micro:bit' to flash the device.
