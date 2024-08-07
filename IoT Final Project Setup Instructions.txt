@@ -1,0 +1,3 @@
+IoT Final Project Setup Instructions
+
+Access layer - the node & gateway must be run in seperate tabs, each tab must have the corresponding code, either gateway.py or node.py copied into the main function. Then you need to add accessCom.py to both tabs. AccessCom holds suppoort functions used by the two files.
